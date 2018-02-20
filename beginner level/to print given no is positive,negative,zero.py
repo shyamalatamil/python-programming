@@ -3,7 +3,7 @@ def main():
  a=int(input())
  if(a==0):
       print("zero")
- elif(a>0 and a<100000):
+ elif(a>0 and a<=100000):
      print("positive")
- else:
+   else:
      print("negative")
