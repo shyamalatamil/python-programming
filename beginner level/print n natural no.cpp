@@ -1,13 +1,21 @@
 #include <iostream>
 using namespace std;
-
 int main() {
 int no,i;
 int sum=0;
     cin >> no;
-    for (i=1; i<=no; i++) {
+    if(no<=0)
+    {
+    	cout<<"invalid no";
+    }
+    else
+    {
+    	int i=1;
+    while(i<=no) {
         sum=sum+i;
+        i++;
     }	
     cout<<sum;
     return 0;
+}
 }
